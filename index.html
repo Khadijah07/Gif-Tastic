@@ -5,15 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Gif-Tastic</title>
 </head>
 
 <body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Search</h1>
+
+        </div>
+    </div>
+    <!--Gif buttons-->
+    <div id="buttons" class="container">
+        <button id="viewGifButton"></button>
+
+
+    </div>
+    <!-- where the gifs will appear-->
+    <div class="container">
+        <div class="col-sm-9 col-sm-9 col-md-9 col-lg-4">
+            <div id="viewGifs">
+
+            </div>
+            <!--------Submission Form-------->
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+                <form id="gifForm" role="form">
+                    <h2>
+                        <legend> Submit a cartoon character!</legend>
+                    </h2>
+                    <div class="form-group">
+                        <label for="gifs">Add a cartoon character!</label>
+                        <input type="text" id="gif-input">
+                    </div>
+
+                    <input id="add-cartoon" type="submit" value="submit a character!" class="btn btn-primary">
+                    <br>
+
+                    <input id="remove-cartoon" type="submit" value="remove a character!" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
 
 
 
 </body>
-<script src="assets/javascript/jquery-js.js"></script>
+
+<script src="assets/javascript/jquery-js.js">
+</script>
 <script type="text/javascript" src="assets/javascript/gifs.js"></script>
 
 </html>
