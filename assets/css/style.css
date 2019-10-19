@@ -1,7 +1,7 @@
 .jumbotron{
 background-color: orangered;
 font-family: 'Modak', cursive;
-color: #ffcc00;
+color: #0099ff;
 }
 
 h1{
@@ -17,3 +17,18 @@ body{
     flex-direction: row;
     
 }
+
+legend {
+
+    font-family: 'Mansalva', cursive;
+}
+
+#add-cartoon {
+    background-color: orangered;
+    font-family: 'Mansalva', cursive;
+}
+
+#remove-cartoon {
+    font-family: 'Mansalva', cursive;
+}
+
