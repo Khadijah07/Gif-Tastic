@@ -1,0 +1,19 @@
+.jumbotron{
+background-color: orangered;
+font-family: 'Modak', cursive;
+color: #ffcc00;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: #ffcc00;
+}
+
+.container{
+    justify-content: right;
+    flex-direction: row;
+    
+}
